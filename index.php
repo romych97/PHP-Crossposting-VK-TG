@@ -16,7 +16,7 @@ switch ($data->type) {
   //Если это уведомление для подтверждения адреса...
   case 'confirmation':
     //...отправляем строку для подтверждения
-    if ($data->group_id == 114374536) {
+    if ($data->group_id == 'Здесь ид группы') {
     echo $confirmation_token_A;
     return header("HTTP/1.1 200 OK");
     } 
